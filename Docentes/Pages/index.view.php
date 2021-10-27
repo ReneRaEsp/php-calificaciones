@@ -1,9 +1,9 @@
 <?php
-$title = 'Lista de Administradores';
+$title = 'Lista de Docentes';
 require_once './../Views/Layout/head.php';
 ?>
 <h1> <?php echo $title; ?> </h1>
-<a href="add.php" target="_blank">Registrar Administrador</a>
+<a href="add.php" target="_blank">Registrar Docente</a>
 <table border="1">
   <tr>
     <th> Id </th>

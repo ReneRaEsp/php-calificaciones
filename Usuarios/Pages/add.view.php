@@ -8,8 +8,12 @@ require_once './../Views/Layout/head.php';
       <input type="text" name="Apellido" placeholder="Apellido" required autocomplete="off">
       <input type="text" name="Usuario" placeholder="Usuario" required autocomplete="off">
       <input type="password" name="Password" placeholder="Password" required autocomplete="off">
-      <input type="text" name="Perfil" placeholder="Perfil" required autocomplete="off">
-      <input type="text" name="Estado" placeholder="Estado" required autocomplete="off">
+      <select name="Estado" required autocomplete="off">
+        <option disabled> Seleccione </option>
+        <option value="Activo"> Activo </option>
+        <option value="Inactivo"> Inactivo </option>
+      </select>
+
       <input type="submit" value="Registrar">
     </form>
 

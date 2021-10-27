@@ -1,5 +1,5 @@
 <?php
-$title = 'Agregar Nuevo Administrador';
+$title = 'Agregar Nuevo Docente';
 require_once './../Views/Layout/head.php';
 ?>
 <h1> <?php echo $title; ?> <h1>
